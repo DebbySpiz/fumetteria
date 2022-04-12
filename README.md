@@ -1,2 +1,0 @@
-# fumetteria
-Project DevSkill
