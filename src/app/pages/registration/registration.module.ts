@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 import { RegistrationPageRoutingModule } from './registration-routing.module';
 
 import { RegistrationPage } from './registration.page';
-import { TitoloDevskillComponent } from 'src/app/component/titolo-devskill/titolo-devskill.component';
 
 @NgModule({
   imports: [
@@ -16,6 +15,6 @@ import { TitoloDevskillComponent } from 'src/app/component/titolo-devskill/titol
     IonicModule,
     RegistrationPageRoutingModule
   ],
-  declarations: [RegistrationPage,TitoloDevskillComponent]
+  declarations: [RegistrationPage]
 })
 export class RegistrationPageModule {}
